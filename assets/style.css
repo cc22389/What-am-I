@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(145, 241, 241);
+}
+
+.quiz{
+    margin: 90px;
+    background-color: cadetblue;
+    border: 3px solid white;
+    border-radius: 12px;
+    margin-top: 80px;
+}
+
+p {
+    text-align: center;
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    color: floralwhite; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+  }
+
+ #btn-block {
+    background-color: gray;
+    padding: 20px;
+    font-size: 20px;
+    width: 50%;
+    color: floralwhite;
+    border-radius: 12px;
+    margin: 70px;
+}
+.btn-block {
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    width: 100%;
+    color: floralwhite;
+    border-radius: 12px;
+    
+}
+
+.top-left-link {
+    color:  rgb(88, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#seconds {
+    color: rgb(88, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+label {
+    text-align: center;
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Couldn't figure out how to align my ul list */
+
+ul li {
+    color: floralwhite;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    clear: both;
+}
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>What Am I? QUIZ CHALLENGE</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="highscores.html">
+            <div class="top-left-link">View High Scores</div>
+        </a>
+        <div id="seconds"> Time left : 90</div>
+    </div>
+
+
+    <div class="quiz">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="cardHolder">
+
+                        <div id="question-intro" class="text-center">
+                            <h2>What am I? QUIZ CHALLENGE</h2>
+                            <p> Once you start, you will have 90 seconds to guess all 5 questions.</p>
+                            <p>Be careful, if you guess wrong, time will be taken away from the clock! Good luck!!</p>
+                            <button id="btn-block">Get Started!</button>
+                        </div>
+
+                        <div class="question hidden">
+                            <h2>I have two hands, but I can not scratch myself.</h2>
+                            <h3>What am I?</h3>
+
+                            <div class="row">
+                                <div class="center">
+                                    <div class="buttons">
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">A person</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block correct-answer">A clock</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">A horse</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question hidden">
+                            <h2>What has to be broken before you can use it?.</h2>
+
+                            <div class="row">
+                                <div class="center">
+                                    <div class="buttons">
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">A stick</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">A car</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block correct-answer">An Egg</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question hidden">
+                            <h2>What does up but never comes back down?.</h2>
+
+                            <div class="row">
+                                <div class="center">
+                                    <div class="buttons">
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">Water balloons</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">Air planes</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block correct-answer">Your age</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question hidden">
+                            <h2>What begins with T ends with T and has T in it?</h2>
+
+                            <div class="row">
+                                <div class="center">
+                                    <div class="buttons">
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block correct-answer">A teapot</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">Tattoo</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">A coffee mug</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question hidden">
+                            <h2>What is full of holes but still holds water?</h2>
+
+                            <div class="row">
+                                <div class="center">
+                                    <div class="buttons">
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">A beehive</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block correct-answer">A sponge</button>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <button class="btn-block wrong-answer">A net</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- end of cards-->
+                        <!-- <button id="submit">?</button>   <div id="results"></div> -->
+                    </div>
+                </div>
+            </div>
+
+            <script src="./assets/script.js"></script>
+</body>
+
+</html>
